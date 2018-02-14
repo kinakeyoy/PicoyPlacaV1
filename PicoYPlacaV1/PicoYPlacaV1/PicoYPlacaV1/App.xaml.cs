@@ -13,7 +13,7 @@ namespace PicoYPlacaV1
         {
             InitializeComponent();
 
-            MainPage mp = new MainPage { Title = "PicoYplacAps" };           
+            MainPage mp = new MainPage { Title = "PicoPlacApps" };           
 
 			MainPage = new NavigationPage(mp);
 		}
