@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoYPlacaV1.Android", "PicoYPlacaV1\PicoYPlacaV1.Android\PicoYPlacaV1.Android.csproj", "{5B4F501A-A8CA-44CF-BB04-8654DD377B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoYPlacaV1", "PicoYPlacaV1\PicoYPlacaV1\PicoYPlacaV1.csproj", "{9EDCE676-3D5C-445C-BC21-EE4687688547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B4F501A-A8CA-44CF-BB04-8654DD377B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4F501A-A8CA-44CF-BB04-8654DD377B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4F501A-A8CA-44CF-BB04-8654DD377B01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B4F501A-A8CA-44CF-BB04-8654DD377B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4F501A-A8CA-44CF-BB04-8654DD377B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4F501A-A8CA-44CF-BB04-8654DD377B01}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9EDCE676-3D5C-445C-BC21-EE4687688547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDCE676-3D5C-445C-BC21-EE4687688547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDCE676-3D5C-445C-BC21-EE4687688547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDCE676-3D5C-445C-BC21-EE4687688547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC699648-A004-4C81-9BAB-798AABFBD96E}
+	EndGlobalSection
+EndGlobal
