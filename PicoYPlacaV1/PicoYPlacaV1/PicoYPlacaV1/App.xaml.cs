@@ -9,11 +9,13 @@ namespace PicoYPlacaV1
 {
 	public partial class App : Application
 	{
-		public App ()
-		{
-			InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
 
-			MainPage = new PicoYPlacaV1.MainPage();
+            MainPage mp = new MainPage { Title = "PicoYplacAps" };           
+
+			MainPage = new NavigationPage(mp);
 		}
 
 		protected override void OnStart ()
