@@ -12,6 +12,12 @@ namespace PicoYPlacaV1
 		public MainPage()
 		{
 			InitializeComponent();
+            btnmotos.Clicked += Btnmotos_Clicked;
 		}
-	}
+
+        private void Btnmotos_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new placaPage());
+        }
+    }
 }
