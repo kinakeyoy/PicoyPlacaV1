@@ -2,10 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PicoYPlacaV1"
-             x:Class="PicoYPlacaV1.MainPage">
-
-	<Label Text="Welcome to Xamarin.Forms!" 
+             x:Class="PicoYPlacaV1.MainPage" Title="Titulo PicoYPlacapps" 
+             BackgroundColor="white"
+             >
+    <StackLayout Padding="10">
+        <Label Margin="50" 
+        TextColor="Black" 
+           FontSize="30"
+           BackgroundColor="Yellow"
+           Text="PicoyPlacApps" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+        <Button Margin="10,10" x:Name="btnmotos"
+                FontSize="Large"
+                FontAttributes="Bold"
+                BackgroundColor="Blue"
+                TextColor="White"                
+                Text="Motos" />
+        <Button Margin="10,10" x:Name="btnautos"
+                FontSize="Large"
+                FontAttributes="Bold"
+                BackgroundColor="Blue"
+                TextColor="White"                
+                Text="Automoviles" 
+                IsEnabled="False"/>
+        <Button Margin="10,10" x:Name="btntaxis"
+                FontSize="Large"
+                FontAttributes="Bold"
+                BackgroundColor="Blue"
+                TextColor="Black"                
+                Text="Taxis" 
+                IsEnabled="False"/>
+    </StackLayout>
 
 </ContentPage>
